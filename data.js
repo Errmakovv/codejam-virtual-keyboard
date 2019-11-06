@@ -8,8 +8,8 @@ export let keys = {
     'Digit1': {
       class: 'button-small',
       inner: true,
-      ru: ['!', '1'],
-      en: ['!', '1'],
+      ru: ['1', '!'],
+      en: ['1', '!'],
     },
     'Digit2': {
       class: 'button-small',
@@ -164,8 +164,8 @@ export let keys = {
     'Backslash': {
       class: 'button-small',
       inner: true,
-      ru: ['\'', '/'],
-      en: ['\'', '|'],
+      ru: ['\\', '/'],
+      en: ['\\', '|'],
     },
     'Delete': {
       class: 'button-small del',
