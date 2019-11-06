@@ -164,8 +164,8 @@ export let keys = {
     'Backslash': {
       class: 'button-small',
       inner: true,
-      ru: ['\'', '/'],
-      en: ['\'', '|'],
+      ru: ['\\', '/'],
+      en: ['\\', '|'],
     },
     'Delete': {
       class: 'button-small del',
