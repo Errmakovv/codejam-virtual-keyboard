@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.textarea {
+    display: block;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: #444;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 704px;
+    margin: 0 auto;
+}
+
+.button-small {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    margin:0 0 7px 6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    font-family: 'Roboto','Segoe UI',"Tahoma, sans-serif";
+    background-color: darkgrey;
+    transition: border-radius .1s, background .1s;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.space {
+    width: 330px;
+    background-color: slategray;
+}
+
+.shift-right{
+    width: 86px;
+    background-color: slategray;
+}
+
+.shift-left{
+    width: 100px;
+    background-color: slategray;
+}
+
+.ctrl {
+    background-color: slategray;
+}
+
+.alt {
+    background-color: slategray;
+}
+
+.win {
+    background-color: slategray;
+}
+
+.ent {
+    width: 86px;
+    background-color: slategray;
+}
+
+.capslock {
+    width: 100px;
+    background-color: slategray;
+}
+
+.backspace {
+    width: 100px;
+    background-color: slategray;
+}
+
+.tab {
+    width: 50px;
+    background-color: slategray;
+}
+
+.del {
+    width: 44px;
+    background-color: slategray;
+}
+
+.arrow {
+    background-color: slategray;
+}
+
+.active {
+    background-color: #08FDD8;
+    border-radius: 20px;
+}
